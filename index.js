@@ -17,7 +17,7 @@ const port = 4000;
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: "*"
+    origin: "https://password-reset-frontend-psi.vercel.app"
 }));
 app.use(router);
 
